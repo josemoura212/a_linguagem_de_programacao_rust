@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "structs"
+name = "a_linguagem_de_programacao_rust"
 version = "0.1.0"
