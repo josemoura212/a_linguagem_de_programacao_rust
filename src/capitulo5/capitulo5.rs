@@ -1,3 +1,5 @@
+use super::retangulo;
+
 pub fn capitulo5() {
     let mut user1 = User {
         email: String::from("josemoura212@gmai.com"),
@@ -16,6 +18,8 @@ pub fn capitulo5() {
 
     let _black = Color(0, 0, 0);
     let _origin = Point(0, 0, 0);
+
+    retangulo::calcular_area();
 }
 
 #[allow(unused)]
@@ -33,6 +37,8 @@ fn build_user(email: String, username: String) -> User {
 
 #[allow(unused)]
 struct User {
+    // username: &str,
+    // email: &str,
     username: String,
     email: String,
     sign_in_count: u64,
