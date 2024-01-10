@@ -1,3 +1,5 @@
+use super::option::option;
+
 #[allow(unused)]
 // enum VersaoIp {
 //     V4,
@@ -41,6 +43,7 @@ pub fn capitulo6() {
     let _loopback = EnderecoIp::V6(String::from("::1"));
 
     local.invocar();
+    option();
 }
 
 impl EnderecoIp {
