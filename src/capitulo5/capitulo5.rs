@@ -19,7 +19,7 @@ pub fn capitulo5() {
     let _black = Color(0, 0, 0);
     let _origin = Point(0, 0, 0);
 
-    retangulo::calcular_area();
+    retangulo::rect();
 }
 
 #[allow(unused)]
