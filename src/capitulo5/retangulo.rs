@@ -45,4 +45,5 @@ pub fn rect() {
 
     println!("O rect1 cabe em rect2? {}", rect1.can_hold(&rect2));
     println!("O rect1 cabe em rect3? {}", rect1.can_hold(&rect3));
+    println!("\n==============================\n");
 }
